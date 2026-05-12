@@ -1,0 +1,55 @@
+# =========================
+# Laravel Core
+# =========================
+/vendor
+/node_modules
+
+/public/build
+/public/hot
+/public/storage
+
+/storage/*.key
+/storage/pail
+/storage/logs
+/storage/framework
+
+/bootstrap/cache
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs & Cache
+# =========================
+*.log
+.phpunit.result.cache
+.phpactor.json
+.phpunit.cache
+
+# =========================
+# IDE / Editors
+# =========================
+.idea
+.vscode
+.phpstorm.meta.php
+.php-cs-fixer.cache
+/.fleet
+/.nova
+/.zed
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Auth / Sensitive Files
+# =========================
+auth.json
+Homestead.json
+Homestead.yaml
